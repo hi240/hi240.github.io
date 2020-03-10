@@ -1,0 +1,10 @@
+package kr.or.bit;
+
+public class Ex05_Varaible_Scope {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

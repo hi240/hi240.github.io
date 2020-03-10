@@ -1,0 +1,30 @@
+
+public class assignment {
+
+	public static void main(String[] args) {
+		//1번문제
+		
+		for(int i=65;i<=90;i++) {
+			System.out.println(Character.toString((char)i));
+		}
+		
+		
+		//2번문제
+		for (int j=1;j<=100;j++){
+		      System.out.print(j+" ");
+		    if(j==10||j==20||j==30||j==40||j==50||j==60||j==70||j==80||j==90)
+		  System.out.println();
+		}
+        //조별과제 1번
+		int sum=0;
+		for (int l=1;l<=20;l++) {
+			if (l%2!=0&&l%3!=0) {
+		sum +=l;
+		}
+			System.out.println(sum);
+		}
+
+	}
+	
+	
+}

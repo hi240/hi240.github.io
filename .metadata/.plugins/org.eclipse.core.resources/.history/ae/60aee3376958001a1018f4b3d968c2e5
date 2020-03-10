@@ -1,0 +1,16 @@
+
+public class Ex08_Static_init {
+
+	class InitTest{
+		static int cv=10;
+		int iv=1;
+	}
+	
+	public static void main(String[] args) {
+      System.out.println(InitTest.cv);
+      InitTest init= new InitTest();
+      System.out.println(init.iv);
+		
+	}
+
+}

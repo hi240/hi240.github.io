@@ -1,0 +1,5 @@
+package kr.or.bin.common;
+
+public class Car {
+
+}

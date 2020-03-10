@@ -1,0 +1,23 @@
+
+public class Ex07_Printf_format {
+
+	public static void main(String[] args) {
+		//java:System.out.println();
+		//C#: Console.WriteLine();
+		
+		System.out.println(); //println은 줄바꿈
+		System.out.print("A"); //print는 옆으로 붙여씀
+		System.out.print("A");
+		System.out.println("A");	
+		System.out.println("A");
+		
+		int num =100;
+		System.out.println(num);
+		System.out.println("num값은: "+num+"입니다");
+	   //형식 format	
+		System.out.printf("num값은: %d입니다 \n",num+num);
+	
+
+	}
+
+}

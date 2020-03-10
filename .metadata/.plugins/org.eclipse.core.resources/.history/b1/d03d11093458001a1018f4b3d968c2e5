@@ -1,0 +1,9 @@
+package kr.or.bit;
+
+public class Keyboard {
+	
+		public Boolean button;
+		public Boolean Led;
+		public String brand="brand";
+	
+}

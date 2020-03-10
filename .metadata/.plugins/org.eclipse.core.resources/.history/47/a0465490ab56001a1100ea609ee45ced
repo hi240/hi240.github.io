@@ -1,0 +1,40 @@
+
+public class Ex10_Statement {
+
+	public static void main(String[] args) {
+		//반복문 (while, do while)
+		int i=10;
+		while(i>=10) {
+			System.out.println(i);
+			 i--;// 반드시 조건에 증가감을 통해 true false를 만들어줘야함.
+			//break;
+		}
+
+		//while 1~100까지의 합
+		//누적값:
+	/*	int sum=0;
+		int j = 1;
+		while(j <= 100) {
+			//sum +=j;
+			//j++;
+			
+			//j++;
+			//sum +=j;   //위와 얘는 다르다.
+		}
+		System.out.println("1~100까지의 합: "+sum);
+		*/
+		//while 문으로 구구단을출력하세요
+		
+		int a=1,b=1,num=0;
+		
+		while(a<=9) {			
+			while(b<=9) {
+				num=a*b;
+				System.out.printf("%d * %d = %d\n",a,b,num);
+				b++;
+			}
+			a++;
+		}
+	}
+
+}

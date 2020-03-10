@@ -1,0 +1,25 @@
+
+
+
+	class InitTest{
+		static int cv=10;
+		int cv2=0;
+		int iv=1;
+		static{                  //static 초기자: static 변수를 초기화(실행시점)
+			 cv=20;             //논리적인 코드를 사용하고 싶을때 필요..
+			cv2=cv+10;
+		}
+	                        	//초기자(static memberfield나 memberfield의 값을 초기화 한다.)
+		{                       //{} <-초기자.메모리에 iv라는 변수가 올라가고 나서 바로 실행...
+			iv=3;
+		}
+		}
+	
+	
+public class Ex08_Static_init {		
+	public static void main(String[] args) {
+      System.out.println(InitTest.cv);//System.out.println(init.iv);위에서부터 여기까지는 안됨. 밑에 new생성해야됨.
+      InitTest init= new InitTest();
+      System.out.println(init.iv);
+}
+}

@@ -1,0 +1,21 @@
+package kr.or.bit;
+
+public class Book {
+public static void main(String[] args) {
+		
+	TestBook publish = new TestBook("서영짱",2000); //책출판.
+	
+	}
+}
+ class TestBook {
+	
+	    private String name;
+	    private int price;
+	    
+	    public TestBook(String name,int price) {  //책 출판되면 이름과 가격을 무조건 가지고 있다.
+	    	name=name;
+	    	price=price;
+	 System.out.println("책이 출판되었습니다.");
+	    }
+ }
+

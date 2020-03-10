@@ -1,0 +1,15 @@
+
+public class Ex07_Printf_format {
+
+	public static void main(String[] args) {
+		//java:System.out.println();
+		//C#: Console.WriteLine();
+		
+		System.out.println();
+		System.out.print("A");
+		
+		
+
+	}
+
+}

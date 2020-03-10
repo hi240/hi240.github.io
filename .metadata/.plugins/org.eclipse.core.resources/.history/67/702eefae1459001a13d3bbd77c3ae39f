@@ -1,0 +1,29 @@
+class Data{
+	int i;
+}
+public class Ex13_Method_Call {
+
+	public static void main(String[] args) {
+		Data d = new Data();  //d 가 xx번지라면,
+		d.i=100;
+		System.out.println("d.i: "+d.i);
+           
+		scall(d);  //주소값 할당.
+	
+		System.out.println("d.i: "+d.i); //111
+		
+		vcall(d.i);//111
+		System.out.println("d.i: "+d.i);
+	}
+
+	static void scall(Data data) {         //Data라는 타입을 갖는 [주소값]을 받는다. 밑에 애와 차이 주목.
+		                                   //Data라는 변수도 xx라는 번지.
+		System.out.println("함수: "+data.i);
+		data.i=111;
+	}
+	static void vcall(int x) {    //값을 받는다.
+		System.out.println("before: "+x);
+		x=8888;
+		System.out.println("after: "+x);
+	}
+}

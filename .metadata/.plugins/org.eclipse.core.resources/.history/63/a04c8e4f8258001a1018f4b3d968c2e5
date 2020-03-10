@@ -1,0 +1,26 @@
+package kr.or.bit;
+
+public class Ex06_Static_CardMake {
+
+	public static void main(String[] args) {
+     
+		//53개 제작하였으나,
+		//고객 요구 사항: 크기가 이게 아닌데요
+		//h=70 w=50
+		//설계도를 다시 변경해야되고, 53장을 다시 제작해야 된다..........
+		//각각의 카드의 높이와.....넓이를 바꾸라
+
+		Card card = new Card();
+		card.cardname(1,"heart");
+        Card.h=70;
+        Card.w=50;
+        card.h=30;
+		card.cardInfo();
+		card.cardname(2,"spade");
+		card.cardInfo(); //카드정보출력.
+		
+	}
+          //질문1 static메소드는 노란 전구처럼 꼭 class명으로해서 불러와야하는가?
+	       // 2 ppt검사
+	       // 3 논리회로 evernote에 있는거랑 일치한지 질문.
+}

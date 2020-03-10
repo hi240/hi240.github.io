@@ -1,0 +1,32 @@
+package kr.or.bit;
+
+//
+
+public class AirPlane {
+
+	public String name;
+	//private String name; <<캡슐화시킴으로써 다른곳에서 수정 못하게한다.
+	public int number;
+	//private int number;
+	public static int count;
+	//private static int count;
+	
+	
+	 public void airInfo() {
+   	  System.out.printf("이름:%s,번호:%d\n",name,number);
+     }
+	 
+	 //내가 놓친부분
+	 /*
+	  * public void makeAirPlane(int num,String name){
+	  * number=num;
+	  * name=name;
+	  * count++;
+	  * System.out.println("번호:%d,이름:%s",number,name);
+	  * }
+	  * 
+	  * public void airPlaneTotalCount(){
+	  * System.out.printf("총비행기 제작 대 수: %d\n",count); }
+	  */
+	
+}

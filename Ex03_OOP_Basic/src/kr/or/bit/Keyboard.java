@@ -1,0 +1,10 @@
+package kr.or.bit;
+
+public class Keyboard {
+	
+	 Boolean button = new Boolean(true); //¹öÆ° on
+		public Boolean Led;
+		public String brand="brand";
+		
+	
+}

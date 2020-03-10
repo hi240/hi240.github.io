@@ -1,0 +1,23 @@
+package kr.or.bit;
+
+public class TestAir {
+	public static void main(String[] args) {
+		
+		
+		AirPlane air= new AirPlane();
+		air.name="안녕";
+		air.number=1;
+		air.airInfo(); 
+		AirPlane air2= new AirPlane();
+		air2.name="두번쨰";
+		air.number=2;
+		air2.airInfo(); 
+		AirPlane air3= new AirPlane();
+		air3.name="세번쨰";
+		air.number=3;
+		air3.airInfo(); 
+		
+		System.out.println("총누적대수는: "+air.number);
+		
+	}
+}

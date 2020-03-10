@@ -1,0 +1,34 @@
+package kr.or.bit;
+
+public class Exercise_1 {
+
+	public static void main(String[] args) {   //컴퓨터
+		
+		 int price=30000000;
+		 String brand="brand";
+		 String serial="12313454623";
+		 String color="red";
+		 
+		 Keyboard keyboard = new Keyboard();
+		 Mainbody mainbody = new Mainbody();
+		 Monitor monitor = new Monitor();
+		 
+		 keyboard.button=false; //버튼끔.
+		 Boolean sleepmode = Boolean.TRUE; //절전모드
+		System.out.println(sleepmode);
+		 
+		 //상태 절전모드
+		 //부품 본체 키보드 모니터
+		 //기능 입력/출력가능하다. 전원킬/끌수있따. 절전모드 온/오프. 사칙연산
+         
+
+		 
+	
+		 
+	
+	}
+	
+}
+
+	
+

@@ -1,0 +1,88 @@
+import java.util.Scanner;
+
+//오늘 점심 메뉴는 주제...
+
+public class Ex12_do_while_Static_Menu {
+    static int kind;
+    static int menu;
+    static int print;
+	static Scanner sc = new Scanner(System.in); 
+    
+	static void inputKind() {
+		if (print==1) System.out.println("햄버거를 선택하셨습니다.");
+		else System.out.println("피자를 선택하셨습니다.");
+	}
+	static void inputFood() {
+		System.out.println("먹고싶은 메뉴: ");
+	}
+
+	
+	static int displayMenu() {
+	
+		
+		int menu=0;
+		do {
+			try {        
+				menu =Integer.parseInt(sc.nextLine());
+			if(menu>=1&&menu<=3) {  
+				break; 
+			}else {
+				
+				throw new Exception("메뉴 선택 번호가 잘못되었습니다.");
+			}
+			}catch(Exception e) {
+			System.out.println(e.getMessage());
+			System.out.println("메뉴 선택 문제 발생");
+			System.out.println("메뉴 1~3번까지 입력");
+			}
+			
+		}while(true); 
+		
+		
+		return menu;
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println("먹고싶은 종류");
+		System.out.println("1.양식");
+		System.out.println("2.중식");
+		System.out.println("3.한식");
+		System.out.println("4.일식");
+		menu =Integer.parseInt(sc.nextLine());
+		while(true) {	
+			switch(menu) {
+			case 1:
+				System.out.println("1.햄버거");
+				System.out.println("2.피자");
+				print =Integer.parseInt(sc.nextLine());
+				inputKind();
+			break;
+			case 2:
+				System.out.println("1.짜장면");
+				System.out.println("2.짬뽕");
+				print =Integer.parseInt(sc.nextLine());
+				if (print==1) System.out.println("짜장면을 선택하셨습니다.");
+				else System.out.println("짬뽕을 선택하셨습니다.");
+				break;
+			case 3:
+				System.out.println("1.된장찌개");
+				System.out.println("2.김치찌개");
+				print =Integer.parseInt(sc.nextLine());
+				if (print==1) System.out.println("된장찌개를 선택하셨습니다.");
+				else System.out.println("김치찌개를 선택하셨습니다.");
+				break;
+			case 4:
+				System.out.println("1.스시");
+				System.out.println("2.소바");
+				print =Integer.parseInt(sc.nextLine());
+				if (print==1) System.out.println("스시를 선택하셨습니다.");
+				else System.out.println("소바를 선택하셨습니다.");
+				break;
+				}
+				}
+		}
+
+	}
+
+

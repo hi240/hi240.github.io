@@ -1,0 +1,16 @@
+package kr.or.bit;
+
+public class TestAir {
+	public static void main(String[] args) {
+		
+		
+		AirPlane air= new AirPlane();
+		air.name="¾È³ç";
+		air.number=1;
+		air.airInfo(); 
+		AirPlane air2= new AirPlane();
+		AirPlane air3= new AirPlane();
+		
+		
+	}
+}

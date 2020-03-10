@@ -1,0 +1,11 @@
+
+public class Excercise {
+
+	public static void main(String[] args) {
+		int[] subject;
+		System.out.println(subject.length);
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}
