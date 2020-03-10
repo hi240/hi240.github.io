@@ -1,3 +1,4 @@
 Java/.metadata/
 *.class
 *.snap
+*.xmi
