@@ -1,2 +1,3 @@
 Java/.metadata/
 *.class
+*.snap
