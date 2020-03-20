@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="kr.or.bit.Emp"/>
 <fullyQualifiedTypeName name="kr.or.bin.common.Person"/>
 <fullyQualifiedTypeName name="kr.or.bin.common.Car"/>
+<fullyQualifiedTypeName name="kr.or.bit.Lotto"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="kr.or.bit.Emp"/>
+<fullyQualifiedTypeName name="kr.or.bit.Pclass"/>
+<fullyQualifiedTypeName name="ABclass"/>
+<fullyQualifiedTypeName name="Dropship"/>
+<fullyQualifiedTypeName name="kr.or.bit.Singleton"/>
+<fullyQualifiedTypeName name="Unit"/>
+<fullyQualifiedTypeName name="kr.or.bit.utils.Edu_Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="Account"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

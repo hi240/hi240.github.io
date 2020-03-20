@@ -79,7 +79,7 @@ public class Ex02_Array_Quiz {
 			System.out.printf(lotto[i] + " ");
 		}
 		System.out.println();
-		// 복습 중복 안되고, 내림차순으로 정리.
+	
 		int[] eunwoo = new int[5];
 		for (int i = 0; i < eunwoo.length; i++) {
 			eunwoo[i] = (int) (Math.random() * 40 + 1);

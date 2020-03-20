@@ -1,4 +1,4 @@
-Java/.metadata/
+.metadata/
 *.class
 *.snap
 *.xmi
