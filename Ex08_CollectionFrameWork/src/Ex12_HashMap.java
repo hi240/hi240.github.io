@@ -10,6 +10,7 @@ public class Ex12_HashMap {
 	    loginmap.put("scott","tiger");
 	    loginmap.put("lee","kim1004");
 
+	
 	    Scanner sc= new Scanner(System.in);
 	    
 	    while(true) {

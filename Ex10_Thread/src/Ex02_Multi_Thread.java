@@ -11,8 +11,6 @@
  *   class Test extends Car implements Runnable
  *   >> 일반 클래스 Thread 말고 다른 클래스를 상속할 경우 ..
  *   thread객체의 생성자를 사용하면, thread임을 인정하자.
- * 
- * 
  */
 
 //방법1
@@ -45,7 +43,7 @@ public class Ex02_Multi_Thread {
 		//start()하는 일: call stack을 새로 생성하고 그 stack에 run()함수 올려놓고, 본인은 소멸.
 		
 		//2번
-		Thread_2 th2 = new Thread_2(); //Thread가 아니다! thread를 구현해야 thread. 인터페이스만 구현한class
+		Thread_2 th2 = new Thread_2(); //Thread가 아니다! thread를 구현해야 thread.인터페이스만 구현한 class
 		Thread thread = new Thread(th2); 
 		thread.start();
 		

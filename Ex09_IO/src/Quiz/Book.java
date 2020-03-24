@@ -1,10 +1,8 @@
 package Quiz;
 
-import java.io.Serializable;
-
 //도서 클래스
 
-public class Book implements Serializable{
+public class Book {
 
       final String isbn;
       String title;
@@ -22,5 +20,4 @@ public class Book implements Serializable{
 
       public String toString(){
              return String.format("ISBN:%s 이름:%s 가격:%d", isbn, title,price);        }
-
 }
