@@ -20,11 +20,11 @@ public class Weight_Manager {
         int choiceInt;
        
         while (true) {
- 
+
             try {
-                wm.showMenu();
+                wm.showMenu(); 
                 choiceInt = wm.keyboard.nextInt();
-                wm.keyboard.nextLine(); //?다음 입력을 위해 날림
+               // wm.keyboard.nextLine(); //?다음 입력을 위해 날림
                 System.out.println();
  
                 if (choiceInt < 1 || choiceInt > 5) // 주어진 메뉴의 범위를 벗어나면
@@ -37,7 +37,7 @@ public class Weight_Manager {
                 case 4: wm.changePassword();break;
                 case 5:
                     System.out.println("프로그램을 종료합니다.");
-                    return;        // System.exit(0);      
+                    return;        // System.exit(0);     
                 }
             } catch (MenuChoiceException e) {
                 e.showWrongChoice();

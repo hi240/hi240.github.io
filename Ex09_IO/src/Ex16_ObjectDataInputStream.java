@@ -30,6 +30,7 @@ public class Ex16_ObjectDataInputStream {
 				System.out.println(((Userinfo)users).toString());
 			}
 			
+
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}finally {
